@@ -1,37 +1,177 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+    <head class="no-skrollr">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/wedding-bkdm/images/1.jpg">
+        <meta property="og:description" content="김**와 이**의 청첩장입니다.">
+        <title>초대합니다.<title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style type="text/css">
+            .background {
+                position: fixed;
+                width: 100%; 
+                max-width: 600px;
+                max-height: 100%;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
 
-You can use the [editor on GitHub](https://github.com/lilyshushu/lily.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+            .main_images {
+                position: fixed;
+                width: 100%;
+                max-width: 600px;
+                max-height: 100%;
+                margin: auto;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+            body {
+                max-width: 600px;
+                text-align: center;
+                margin: auto;
+            }
+            img {
+                width: 100%;
+                height: auto;
+                max-width: 600px;
+            }
+            ul,li,div,a,img{text-decoration: none; list-style: none; margin: 0; padding: 0; text-align: left;}
 
-### Markdown
+            a:link { color: black; text-decoration: none;}
+            a:visited { color: black; text-decoration: none;}
+            a:hover { color: black; text-decoration: none}
+            h3{margin-left: 23px;}
+            .tel a{display: inline-block; padding: 10px; border: 1px solid #F7AE1E; color: #F7AE1E; width: 80%; margin-bottom: 10px; text-align: center; margin-left: 23px;}
+        </style>
+    </head>
+    <body style="height: 5414px; width: 90%;">
+        <img class="background" src="images/text.png">
+        <div id="skrollr-body">
+            <div data-0="background-color:rgb(255, 236, 236);" data-600="background-color:rgb(255, 255, 255);">
+                <div style="height: 1000px; line-height: 600px;">
+                        <img class="blink" src="images/scroll_down.png" style="width: 60px; vertical-align: bottom;">
+                </div>
+            </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            <div style="z-index:120; height: 600px;" data-200="position:fixed; top:0; right:0; opacity:0" 
+            data-700="position:fixed; top:0; right:0; opacity:1"
+            data-1700="position:fixed; top:0; left:0; opacity:0">
+                    <img src="images/line_all.png"/>
+            </div>
 
-```markdown
-Syntax highlighted code block
+            <div style="z-index:120;  height: 600px;" data-400="position:fixed; top:500px; right:0; opacity:0" 
+            data-900="position:fixed; top:0; right:0; opacity:1"
+            data-1700="position:fixed; top:0; left:0; opacity:0">
+                <img src="images/circle_all.png"/>
+            </div>    
+            
+            <div style="z-index:9999; background:none; text-align: center; left: 0; right: 0;" 
+            data-800="z-index:9999; position:fixed; top:1000px; opacity:1" 
+            data-1700="z-index:9999; position:fixed; top:200px; opacity:1">
+                <div class="text" style="line-height: 2;">
+                    <p style="display: inline-block; width: 100%; text-align: center;">사랑하는 아빠의 70번째 생신입니다.<br>
+                       소중한 가족들과 아빠의 생신을 축하드리고<br> 
+                       밥한끼 같이 먹을 수있는 조촐한 자리를 마련했습니다.<br>
+                       참석하시어 사랑하는 아빠의 생신을 같이 축하 해주세요.<br> 
+                    </p>
+                </div>
+            </div>
 
-# Header 1
-## Header 2
-### Header 3
+            <div style="z-index: 999; font-size: 12px; background: white; margin: auto; width: 100%; max-width: 600px; padding-bottom: 50px; padding-top: 15px;left: 0; right: 0;" 
+            data-1700="z-index:9999; position:fixed; top:1000px; opacity:1"  
+                 data-2600="z-index:9999; position:fixed; top:0px; opacity:1;">
+                <h3 style="text-align: left; margin-left: 21px;">오시는 길</h3>
+                <!-- * 카카오맵 - 지도퍼가기 -->
+            <!-- 1. 지도 노드 -->
+            <div id="daumRoughmapContainer1575171635735" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 80%; margin: 0 auto; text-align: center;"></div>
 
-- Bulleted
-- List
+            <!--
+                2. 설치 스크립트
+                * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+            -->
+            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-1. Numbered
-2. List
+            <!-- 3. 실행 스크립트 -->
+            <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                    "timestamp" : "1575171635735",
+                    "key" : "w358",
+                }).render();
+            </script>
+                <div class="traffic">
+                    <ul>
+                        <li>
+                            <div>
+                                <h3>대중교통</h3>
+                                <p style="text-align: left; margin-left: 21px;">
+                                김포골드라인<span style="color:red">4번 출구 앞</span><br>
+                                이마트 1층 보노보노M 김포한강점 T: 031-990-7186
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h3>자가용</h3>
+                                <p style="text-align: left; margin-left: 21px;">
+                                네비게이션 이마트 김포한강점 검색 - 이마트 주차가능<br>
+                                이마트 1층 보노보노M 김포한강점 T: 031-990-7186
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tel">
+                                <h3>연락하기</h3>
+                                <ul>
+                        <li><a  href="tel:01095937202" style=" text-decoration:none;">
+                        황현숙 연락하기
+                    </a></li>
+                        <li><a  href="tel:01090107202" style=" text-decoration:none;">
+                        남궁윤희 연락하기
+                    </a></li>
+                        
+                    </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+               
+         </div>
+        <script type="text/javascript">
+            var s = skrollr.init({
+                forceHeight: false,
+                smoothScrollingDuration: 500,
+                mobileCheck: function(){
+                    if((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+                        // mobile device
+                    }
+                }
+            });
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lilyshushu/lily.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+            //메인화면 아래화살표 깜빡이
+            var element = $(".blink");
+            var shown = true;
+            setInterval(toggle, 1500);
+            function toggle() {
+            if(shown) {
+                shown = false;
+                element.animate({
+                opacity: 0,
+                }, 1500 );
+            } else {
+                shown = true;
+                element.animate({
+                opacity: 1,
+                }, 1500 );
+            }
+            }
+        </script>
+    </body>
+</html>
